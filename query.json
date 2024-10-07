@@ -1,0 +1,34 @@
+{
+    "op": "QUERY",
+    "args": [
+	{"op": "SELECT",
+	 "args": [
+	     {"op": "AND",
+	      "args": [
+		  {"op": "HASP",
+		   "args": [
+		       ":TYPE",
+		       "\"isExecutionOf\""]},
+		  {"op": "LASTPART",
+		   "args": [
+		       "DWI.Workflow.Id()"]}]}]},
+	{"op":"MAP",
+	 "args": [
+	     {"op":"FISH",
+	      "args": [
+		  {"op":"PROJ",
+		   "args": [
+		       {"op": "HASP",
+			"args": [
+			    ":TYPE",
+			    "\"Arkite Event\""]}]},
+		  {"op":"MAP",
+		   "args": [
+		       {"op": "GETA",
+			"args": [
+			    ":STEP_DURATION"]}]},
+		  {"op":"SUM",
+		   "args": []}]}]},
+	{"op": "AVG",
+	 "args": []}]
+}

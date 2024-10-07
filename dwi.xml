@@ -1,0 +1,2416 @@
+<?xml version="1.0"?>
+<WorkMaster xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mesa.org/xml/B2MML">
+  <ID>light_switch_final_2.obj</ID>
+  <Version>1.0</Version>
+  <Description>Describes the steps to assemble a light_switch</Description>
+  <PublishedDate>2023-08-10T09:20:15.0547825+02:00</PublishedDate>
+  <WorkType>Production</WorkType>
+  <ParameterSpecification>
+    <ID>ImportParameters</ID>
+    <ParameterChild>
+      <ID>CAD2DWI_version</ID>
+      <Value>
+        <ValueString>2</ValueString>
+        <DataType>integer</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>ImportRotation</ID>
+      <ParameterChild>
+        <ID>x</ID>
+        <Value>
+          <ValueString>270</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </ParameterChild>
+      <ParameterChild>
+        <ID>y</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </ParameterChild>
+      <ParameterChild>
+        <ID>z</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </ParameterChild>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>mirrorModel</ID>
+      <Value>
+        <ValueString>False</ValueString>
+        <DataType>boolean</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>fixNormals</ID>
+      <Value>
+        <ValueString>False</ValueString>
+        <DataType>boolean</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>importerTypeID</ID>
+      <Value>
+        <ValueString>2229dd02-5e30-4d24-a202-4209de9458fc</ValueString>
+        <DataType>string</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>OperationTaskDescriptions</ID>
+      <ParameterChild>
+        <ID>OperationTaskDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </ParameterChild>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>modelFilePath</ID>
+      <Value>
+        <ValueString>C:\Users\ewoud.verhelst\OneDrive - Flanders Make vzw\Documents\AI\CAD files\light_switch_final_2.obj</ValueString>
+        <DataType>string</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+    <ParameterChild>
+      <ID>modelFileHash</ID>
+      <Value>
+        <ValueString>ab18e7d9d9854606d439392a1c5ea02a736981d4f4a49cd2b1cfb5bfa61f8d46</ValueString>
+        <DataType>string</DataType>
+        <UnitOfMeasure xsi:nil="true" />
+      </Value>
+    </ParameterChild>
+  </ParameterSpecification>
+  <MaterialSpecification>
+    <ID>7393f8d3-503c-4473-a747-c632e1b1b414</ID>
+    <MaterialDefinitionID>Solid1_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <MaterialSpecification>
+    <ID>a67eba96-e531-4e0d-8092-b9f4eee949ea</ID>
+    <MaterialDefinitionID>Solid1_2_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <MaterialSpecification>
+    <ID>9c1dfebe-69cb-415a-abd0-b41ceb0c544d</ID>
+    <MaterialDefinitionID>Srf1_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <MaterialSpecification>
+    <ID>278a29c3-a08b-4278-9d92-11cdc459d9d9</ID>
+    <MaterialDefinitionID>Solid1_4_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <MaterialSpecification>
+    <ID>5ed4237f-1e7c-49b4-80ee-2c40967459d9</ID>
+    <MaterialDefinitionID>Solid1_5_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <MaterialSpecification>
+    <ID>b21c8555-3a2d-428d-b342-19d49008ce53</ID>
+    <MaterialDefinitionID>Solid1_6_</MaterialDefinitionID>
+    <MaterialUse>Consumed</MaterialUse>
+    <Quantity>
+      <QuantityString>1</QuantityString>
+      <DataType>integer</DataType>
+      <UnitOfMeasure xsi:nil="true" />
+    </Quantity>
+  </MaterialSpecification>
+  <WorkflowSpecification>
+    <ID>light_switch_final_2.obj</ID>
+    <WorkflowSpecificationNode>
+      <ID>36670149-6721-48f6-9b38-80e24cf14cd9</ID>
+      <WorkflowSpecificationNodeTypeID>StartNode</WorkflowSpecificationNodeTypeID>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>73fd03d9-486e-4b11-9de8-72ca45326f4a</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>Base plate</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>7393f8d3-503c-4473-a747-c632e1b1b414</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>16ad4eaf-ad93-4f18-99a6-5347d5dd20c0</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">{
+            "from": "The rack at your right hand",
+            "to": "On top of the right assembly station",
+            "tool": "no",
+            "extra": "Be aware of the right orientation"
+            }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Solid1'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Solid1_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>True</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>bc4b4ec5-7ea6-40eb-b091-882d0a637264</ID>
+        <WorkInstructionComponent>
+          <ID>24b5dd2c-e761-4427-83b7-f01e770eccef</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>139f2034-b481-4b7f-8bc9-17b6dbf60ad8</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">{
+                "from": "The rack at your right hand",
+                "to": "On top of the right assembly station",
+                "tool": "no",
+                "extra": "Be aware of the right orientation"
+                }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Solid1'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>c54f06d9-0f1e-40c2-85ef-8cf3ddec62a8</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>84e52621-889f-4377-a7c5-4642e1021896</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step0\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>401fb2e2-7e29-41f1-8a76-fec4e442b71f</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>e4c9309d-ed69-4560-ad16-25a414022716</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step0\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>ba13a9ba-d347-446f-9590-2ffbdd800168</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>0c1eb285-cc70-4bde-af9e-12a65b3a24cb</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step0\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Solid1_</ID>
+        <MaterialDefinitionID>Solid1_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>3ca5ce9a-8084-44e4-9eef-e8a7ea8c66a2</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>Spring 1</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>b21c8555-3a2d-428d-b342-19d49008ce53</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>33abe349-5f6c-4f43-bc73-681423e521f9</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">
+          {
+          "from": "The rack to your far right",
+          "to": "The right hole of the cover plate",
+          "tool": "no",
+          "extra": ""
+          }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Solid1 6'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Solid1_6_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0.006944019</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>True</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>7.400548</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>9e756275-51fa-4c97-9aa9-bc5589706dce</ID>
+        <WorkInstructionComponent>
+          <ID>a22cc649-9379-4c49-81cf-3d74f59a509e</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>3d3a818c-5e54-493c-8ed0-95acd022f0ec</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">
+              {
+              "from": "The rack to  your far right",
+              "to": "The right hole of the cover plate",
+              "tool": "no",
+              "extra": ""
+              }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Solid1 6'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>222c2987-ab46-4cd9-a420-8be819d7f79c</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>ec676360-f5f1-4328-b378-29673ae80cd3</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step1\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>75367097-1321-41ab-8f98-7d862fb0d975</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>db506b2f-2685-4aad-991f-188d9da3a50a</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step1\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>0339acc8-1026-4fb1-b395-45a5c717c1fc</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>8d6f54c8-87ba-44d2-b755-312a1fc3428f</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step1\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Solid1_6_</ID>
+        <MaterialDefinitionID>Solid1_6_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>4edcf436-a898-4b9d-ac6a-f9074ac0eaa3</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>Spring 2</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>5ed4237f-1e7c-49b4-80ee-2c40967459d9</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>33abe349-5f6c-4f43-bc73-681423e521f9</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">
+          {
+          "from": "The right to the far right",
+          "to": "The left hole of the base plate",
+          "tool": "no",
+          "extra": ""
+          }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Solid1 5'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Solid1_5_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0.00671101</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>True</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>7.419132</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>d7dddde2-c0bd-4ef3-9b75-1edb37bdbd48</ID>
+        <WorkInstructionComponent>
+          <ID>3914e020-5858-487f-b4c2-e2512f441cdf</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>17ef02f3-63bb-4197-afd8-58de63c1bf11</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">
+              {
+                "from": "The right to the far right",
+                "to": "The left hole of the base plate",
+                "tool": "no",
+                "extra": ""
+              }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Solid1 5'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>f86fb40e-a898-4cef-92d6-bf240b5de09a</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>20f1de37-dc98-4bd8-8f48-fa1acf4703ba</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step2\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>0106c747-cc7d-42f9-9d2f-ea1153807175</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>1a5e0d89-6593-4d78-bca3-5d68287c1234</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step2\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>6982c080-b786-45f7-b31a-9d2d1acb1911</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>3187bc93-cb92-478e-9204-f5245e752cd8</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step2\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Solid1_5_</ID>
+        <MaterialDefinitionID>Solid1_5_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>4c0fa724-6b4f-4246-a81b-7a61fd78d452</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>Circuit board</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>a67eba96-e531-4e0d-8092-b9f4eee949ea</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>7ab40b71-bcaa-4fda-b839-e04560abb9a6</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">
+          {
+          "from": "The container at your right hand",
+          "to": "On top of the base plate",
+          "tool": "no",
+          "extra": "Be aware of the orientation"
+          }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Solid1 2'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Solid1_2_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0.0008500256</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>False</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>1.144057</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>15f64d54-ee66-4462-a778-e7b549e177bf</ID>
+        <WorkInstructionComponent>
+          <ID>0e3bc167-5fd8-444d-9233-e3d7c7fdac1e</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>e0d6a86a-acf4-4ea1-af8d-8038915eb6d1</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">
+              {
+              "from": "The container at your right hand",
+              "to": "On top of the base plate",
+              "tool": "no",
+              "extra": "Be aware of the orientation"
+              }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Solid1 2'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>15ec6c2c-c5cf-4b7c-ac0b-fb3c046119b7</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>12133cb4-f2db-485b-803f-d109c05b77a6</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step3\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>d89acf16-2383-4eec-bebd-9ccf0adc70ac</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>08a451c9-d17f-448d-a9ec-b5736c50d9d1</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step3\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>6a978292-51fa-4440-ba38-6742a2bba9e9</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>02fb3c21-e80c-47cf-9953-f668ffc3a751</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step3\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Solid1_2_</ID>
+        <MaterialDefinitionID>Solid1_2_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>a6f6d93f-6e73-421a-8953-ece74c06702b</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>Cover plate</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>278a29c3-a08b-4278-9d92-11cdc459d9d9</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>983ecd1e-95f7-4a5a-94a3-572fe8be81d2</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">
+          {
+          "from": "The rack in the center-left",
+          "to": "On top of the circuit board",
+          "tool": "no",
+          "extra": "An audible click should be present"
+          }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Solid1 4'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Solid1_4_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0.005005017</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>True</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>46702466-29f6-4662-8097-387ffe145cec</ID>
+        <WorkInstructionComponent>
+          <ID>1e816356-3105-427b-85d2-d57f4b07453c</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>05dda4e6-5f3c-4b3e-8ed6-c7cc56759c7e</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">
+              {
+              "from": "The rack in the center-left",
+              "to": "On top of the circuit board",
+              "tool": "no",
+              "extra": "An audible click should be present"
+              }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Solid1 4'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>397e413b-e2ab-405f-b041-6a3c3450a3ac</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>d186695b-0480-41a0-8201-cdd333ae6902</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step4\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>d8482532-bd22-4755-a62e-9594b6d49821</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>331a2bd6-8513-448c-abe1-d9866ec7e4c9</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step4\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>c73e46d0-e404-47e6-859e-06502d577b52</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>485e7373-683d-4b57-8bd3-8970cb7392b6</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step4\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Solid1_4_</ID>
+        <MaterialDefinitionID>Solid1_4_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>22c106b5-3235-4862-9bf5-a94f1ca85acc</ID>
+      <WorkflowSpecificationNodeTypeID>AssemblyStep</WorkflowSpecificationNodeTypeID>
+      <WorkflowSpecificationNodeProperty>
+        <ID>name</ID>
+        <Value>
+          <ValueString>White top lid</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>partID</ID>
+        <Value>
+          <ValueString>9c1dfebe-69cb-415a-abd0-b41ceb0c544d</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>productVariantID</ID>
+        <Value>
+          <ValueString>251c7e33-810f-4127-ab77-b3a5612d8f89</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>description</ID>
+        <Value>
+          <ValueString languageID="en">
+          { 
+          "from": "The rack to the far-left",
+          "to": "On top of the cover plate",
+          "tool": "no",
+          "extra": "An audible click should be present"
+          }
+          </ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+        <Value>
+          <ValueString languageID="nl">Plaats 'Srf1'</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>actionType</ID>
+        <Value>
+          <ValueString>removal</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>action_part_name</ID>
+        <Value>
+          <ValueString>Srf1_</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-1</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>3.576279E-07</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>move_distance</ID>
+        <Value>
+          <ValueString>0.006799024</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>feasible</ID>
+        <Value>
+          <ValueString>True</ValueString>
+          <DataType>boolean</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_type</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerPoint</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_ankerSelected</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_icon</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>annotation_mediaFile</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_criticality</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_level</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_description</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>PMI_originalDescription</ID>
+        <Value>
+          <ValueString />
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>OT_number</ID>
+        <Value>
+          <ValueString>1</ValueString>
+          <DataType>integer</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_scale</ID>
+        <Value>
+          <ValueString>1.031329</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_direction</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>-0.5773503</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_distance</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_orthographicSize</ID>
+        <Value>
+          <ValueString>0</ValueString>
+          <DataType>decimal</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_focusPoint</ID>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>x</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>y</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+        <WorkflowSpecificationNodePropertyChild>
+          <ID>z</ID>
+          <Value>
+            <ValueString>0</ValueString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure xsi:nil="true" />
+          </Value>
+        </WorkflowSpecificationNodePropertyChild>
+      </WorkflowSpecificationNodeProperty>
+      <WorkflowSpecificationNodeProperty>
+        <ID>preview_toolDirection</ID>
+        <Value>
+          <ValueString>none</ValueString>
+          <DataType>string</DataType>
+          <UnitOfMeasure xsi:nil="true" />
+        </Value>
+      </WorkflowSpecificationNodeProperty>
+      <WorkInstruction xmlns="http://isye.be/b2mml-extensions">
+        <ID>597e7fa6-d821-4ea1-b928-06e536f41ae1</ID>
+        <WorkInstructionComponent>
+          <ID>0ee2b8e6-1453-4c36-9ae0-bddfe8ddccf2</ID>
+          <WorkInstructionComponentTypeID>Description</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>39f64239-ad67-43d2-ba32-5c38d8d452ff</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">
+              { 
+              "from": "The rack to the far-left",
+              "to": "On top of the cover plate",
+              "tool": "no",
+              "extra": "An audible click should be present"
+              }
+              </ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">Plaats 'Srf1'</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>text/plain</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>36a94f9f-3035-4088-bd00-787025df911e</ID>
+          <WorkInstructionComponentTypeID>Image-Instruction</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>104574b3-5c73-4edd-a7b2-e19b942ad5ea</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step5\instructions-color.png</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/png</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>a78d4b8f-85f1-4b54-807e-7010d1a51f81</ID>
+          <WorkInstructionComponentTypeID>Movie_mp4</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>bfe552de-12df-4eb5-b667-b759501b64e7</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step5\movie.mp4</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>video/mp4</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+        <WorkInstructionComponent>
+          <ID>eedb1e61-ac36-42f4-8a8c-b56f89bd74f6</ID>
+          <WorkInstructionComponentTypeID>Movie_gif</WorkInstructionComponentTypeID>
+          <WorkInstructionContent>
+            <ID>44120ae9-bfb2-4f22-a8f7-303837c51787</ID>
+            <Value>
+              <ValueString xmlns="http://www.mesa.org/xml/B2MML">step5\movie.gif</ValueString>
+              <DataType xmlns="http://www.mesa.org/xml/B2MML">string</DataType>
+              <UnitOfMeasure xsi:nil="true" xmlns="http://www.mesa.org/xml/B2MML" />
+            </Value>
+            <Format>image/gif</Format>
+          </WorkInstructionContent>
+        </WorkInstructionComponent>
+      </WorkInstruction>
+      <InsertsMaterialComponent xmlns="http://isye.be/b2mml-extensions">
+        <ID>Srf1_</ID>
+        <MaterialDefinitionID>Srf1_</MaterialDefinitionID>
+      </InsertsMaterialComponent>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationNode>
+      <ID>a70135bb-ee46-452f-9d68-ac21087e5b24</ID>
+      <WorkflowSpecificationNodeTypeID>EndNode</WorkflowSpecificationNodeTypeID>
+    </WorkflowSpecificationNode>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>36670149-6721-48f6-9b38-80e24cf14cd9</FromWSNodeID>
+      <ToWSNodeID>73fd03d9-486e-4b11-9de8-72ca45326f4a</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>73fd03d9-486e-4b11-9de8-72ca45326f4a</FromWSNodeID>
+      <ToWSNodeID>3ca5ce9a-8084-44e4-9eef-e8a7ea8c66a2</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>3ca5ce9a-8084-44e4-9eef-e8a7ea8c66a2</FromWSNodeID>
+      <ToWSNodeID>4edcf436-a898-4b9d-ac6a-f9074ac0eaa3</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>4edcf436-a898-4b9d-ac6a-f9074ac0eaa3</FromWSNodeID>
+      <ToWSNodeID>4c0fa724-6b4f-4246-a81b-7a61fd78d452</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>4c0fa724-6b4f-4246-a81b-7a61fd78d452</FromWSNodeID>
+      <ToWSNodeID>a6f6d93f-6e73-421a-8953-ece74c06702b</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>a6f6d93f-6e73-421a-8953-ece74c06702b</FromWSNodeID>
+      <ToWSNodeID>22c106b5-3235-4862-9bf5-a94f1ca85acc</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+    <WorkflowSpecificationConnection>
+      <ID> </ID>
+      <FromWSNodeID>22c106b5-3235-4862-9bf5-a94f1ca85acc</FromWSNodeID>
+      <ToWSNodeID>a70135bb-ee46-452f-9d68-ac21087e5b24</ToWSNodeID>
+      <Dependency>AtStart</Dependency>
+    </WorkflowSpecificationConnection>
+  </WorkflowSpecification>
+</WorkMaster>
